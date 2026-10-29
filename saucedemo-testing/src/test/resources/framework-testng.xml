@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Framework Unit Tests">
+  <test name="Framework">
+    <classes>
+      <class name="com.portfolio.config.ConfigReaderTest"/>
+      <class name="com.portfolio.utils.MoneyUtilsTest"/>
+      <class name="com.portfolio.utils.ExtentLoggerTest"/>
+      <class name="com.portfolio.listeners.TestListenerTest"/>
+    </classes>
+  </test>
+</suite>
