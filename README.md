@@ -276,27 +276,19 @@ These results represent the recorded execution and do not guarantee that subsequ
 
 ---
 
-## 📸 Test Execution Evidence
-
-The following screenshots provide visual evidence of the SauceDemo Selenium Automation Framework's execution results, test coverage, and reporting capabilities.
 
 ### 1. Test Execution Overview
 
-Displays the overall execution summary, including passed, failed, and skipped test scenarios.
-
-![SauceDemo Overview](screenshots/SauceDemo_Overview_Report.png)
+![SauceDemo Overview](./screenshots/SauceDemo_Overview_Report.png)
 
 ### 2. Feature Coverage
 
-Provides an overview of the functional areas covered by the automation suite.
-
-![SauceDemo Feature Report](screenshots/SauceDemo_Feature_Report.png)
+![SauceDemo Feature Report](./screenshots/SauceDemo_Feature_Report.png)
 
 ### 3. Test Execution Analytics
 
-Displays execution metrics, pass/fail distribution, execution timeline, and test environment information.
+![SauceDemo Analytics](./screenshots/SauceDemo_Analytics_Report.png)
 
-![SauceDemo Analytics](screenshots/SauceDemo_Analytics_Report.png)
 
 
 
