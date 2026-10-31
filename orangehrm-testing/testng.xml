@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Read-Only Smoke and Regression" verbose="1" parallel="false">
+    <listeners>
+        <listener class-name="com.portfolio.orangehrm.reporting.ExtentReportListener"/>
+    </listeners>
+    <test name="Authentication and PIM smoke">
+        <classes>
+            <class name="com.portfolio.orangehrm.tests.LoginTests"/>
+            <class name="com.portfolio.orangehrm.tests.DashboardTests"/>
+            <class name="com.portfolio.orangehrm.tests.SessionTests"/>
+            <class name="com.portfolio.orangehrm.tests.EmployeeSearchTests"/>
+        </classes>
+    </test>
+</suite>
