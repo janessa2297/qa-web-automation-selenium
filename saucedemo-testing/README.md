@@ -565,6 +565,7 @@ This is an independent professional portfolio project and is not affiliated with
 
 ---
 
+
 ## 👨‍💻 Portfolio Purpose
 
 This project is part of the [QA Web Automation Selenium Portfolio](https://github.com/janessa2297/qa-web-automation-selenium), which showcases practical Selenium automation engineering across multiple web applications.
