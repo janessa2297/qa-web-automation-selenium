@@ -278,17 +278,27 @@ These results represent the recorded execution and do not guarantee that subsequ
 
 ## 📸 Test Execution Evidence
 
-Execution screenshots are stored in the `screenshots/` directory.
+The following screenshots provide visual evidence of the SauceDemo Selenium Automation Framework's execution results, test coverage, and reporting capabilities.
 
-### Execution Overview
+### 1. Test Execution Overview
 
-Provides a summary of test execution status, including the number of passed, failed, and skipped tests.
+Displays the overall execution summary, including passed, failed, and skipped test scenarios.
 
-### Test Analytics
+![SauceDemo Overview](screenshots/SauceDemo_Overview_Report.png)
 
-Displays detailed execution statistics, test distribution, execution timeline, and environment information.
+### 2. Feature Coverage
 
-Screenshots are provided to support transparency and allow reviewers to inspect execution evidence without running the framework locally.
+Provides an overview of the functional areas covered by the automation suite.
+
+![SauceDemo Feature Report](screenshots/SauceDemo_Feature_Report.png)
+
+### 3. Test Execution Analytics
+
+Displays execution metrics, pass/fail distribution, execution timeline, and test environment information.
+
+![SauceDemo Analytics](screenshots/SauceDemo_Analytics_Report.png)
+
+
 
 ---
 
