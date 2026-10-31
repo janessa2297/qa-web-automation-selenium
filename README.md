@@ -1,4 +1,4 @@
-# 🧪 QA Web Automation — Selenium Portfolio
+# 🧪 QA Web Automation — Selenium Portfolio 
 
 ### Java | Selenium WebDriver | TestNG | Maven | Page Object Model | CI/CD
 
