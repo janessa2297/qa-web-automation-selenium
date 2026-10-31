@@ -163,6 +163,44 @@ Do not commit the project as verified or passing until you actually run the test
 - [ ] Add sanitized evidence/screenshots for GitHub
 - [ ] Explore CI with a controlled/stable test environment
 
+## 📸 Test Execution Evidence
+
+The following screenshots demonstrate the OrangeHRM Selenium Automation Framework's execution results, functional coverage, and reporting capabilities.
+
+### 1. Test Execution Overview
+
+Provides a summary of the automated test execution, including passed, failed, and skipped scenarios.
+
+![OrangeHRM Execution Overview](screenshots/OrangeHRM_Overview_Report.png)
+
+### 2. Feature Coverage
+
+Displays the application features covered by the automated test suite.
+
+![OrangeHRM Feature Coverage](screenshots/OrangeHRM_Features_Report.png)
+
+### 3. Test Execution Analytics
+
+Presents execution statistics, test outcome distribution, and reporting information.
+
+![OrangeHRM Execution Analytics](screenshots/OrangeHRM_Analytics_Report.png)
+
+---
+
+## 📊 HTML Test Execution Report
+
+The complete OrangeHRM HTML execution report is available in the [`reports/`](reports/) directory.
+
+### How to View the Report
+
+1. Download the HTML report and any associated resource folder.
+2. Locate the downloaded HTML file.
+3. Right-click the HTML file.
+4. Select **Open with** and choose Google Chrome, Microsoft Edge, or another browser.
+5. Navigate through the available report sections to review execution results.
+
+**Note:** The HTML report is an archived execution artifact. Test results represent the recorded execution and may differ in future runs.
+
 ## Notes
 
 This project is for educational QA automation portfolio use and is not affiliated with OrangeHRM. UI selectors and demo credentials can change. Do not confuse a working test scaffold with verified test execution.
