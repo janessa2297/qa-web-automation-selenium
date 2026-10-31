@@ -277,6 +277,11 @@ These results represent the recorded execution and do not guarantee that subsequ
 ---
 
 
+
+## 📸 Test Execution Evidence
+
+The following screenshots demonstrate the execution results and test coverage of the SauceDemo Selenium Automation Framework.
+
 ### 1. Test Execution Overview
 
 ![SauceDemo Overview](./screenshots/SauceDemo_Overview_Report.png)
@@ -288,6 +293,7 @@ These results represent the recorded execution and do not guarantee that subsequ
 ### 3. Test Execution Analytics
 
 ![SauceDemo Analytics](./screenshots/SauceDemo_Analytics_Report.png)
+
 
 
 
