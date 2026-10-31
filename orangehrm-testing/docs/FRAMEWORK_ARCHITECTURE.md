@@ -33,3 +33,4 @@ TestNG suite (testng.xml / write-testng.xml)
 - End-to-end cleanup is best effort; if the demo resets or concurrent edits happen, data may remain.
 - The HTML report is written when the suite finishes and replaces the previous report. Spark CSS/JavaScript assets may require internet access.
 - Parallelization should be introduced after a controlled test environment and test data isolation strategy are available.
+
