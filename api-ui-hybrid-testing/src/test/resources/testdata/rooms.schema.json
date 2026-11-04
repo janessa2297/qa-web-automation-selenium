@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object", "required": ["rooms"],
+  "properties": {"rooms": {"type": "array", "items": {
+    "type": "object", "required": ["roomid", "roomName", "type", "description", "roomPrice", "features"],
+    "properties": {
+      "roomid": {"type": "integer", "minimum": 1}, "roomName": {"type": "string"},
+      "type": {"enum": ["Single", "Double", "Twin", "Family", "Suite"]},
+      "description": {"type": "string"}, "roomPrice": {"type": "integer", "minimum": 1, "maximum": 999},
+      "features": {"type": "array", "items": {"type": "string"}}
+    }
+  }}}
+}

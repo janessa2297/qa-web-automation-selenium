@@ -1,0 +1,5 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker" parallel="none" verbose="1">
+  <listeners><listener class-name="com.portfolio.hybrid.reporting.ExtentListener"/></listeners>
+  <test name="Selected groups"><packages><package name="com.portfolio.hybrid.*"/></packages></test>
+</suite>

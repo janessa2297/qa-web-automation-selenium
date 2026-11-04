@@ -1,0 +1,11 @@
+target/
+.idea/
+.vscode/
+*.log
+.env
+.env.*
+reports/
+screenshots/
+test-output/
+.DS_Store
+.tools/
