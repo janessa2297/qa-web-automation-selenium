@@ -86,3 +86,19 @@ See [execution record](docs/EXECUTION_RECORD.md), [API provenance](docs/API_ENDP
 Final Java 17 local regression: **13 passed, 0 failed, 0 skipped**, including both hybrid workflows and resource cleanup. Clean compile and test compilation also passed. The [execution record](docs/EXECUTION_RECORD.md) distinguishes this verified run from historical public-demo failures. The [delivery manifest](docs/DELIVERY_MANIFEST.md) lists project files.
 
 The public demo resets and can differ from upstream. Known 500 responses are explicitly characterized; they are not desired business behavior. Contract failures remain visible. Prefer the isolated runner for full regression and low public traffic. Cleanup errors surface; a create/discovery network failure may require manual recovery using the logged UUID marker. Never delete seed data or other users' resources. Nothing has been committed or pushed.
+
+### Live Automated Test Report
+
+The API + UI Hybrid Automation Framework generates an interactive Extent Reports dashboard to document automated test execution.
+
+**[View Live Extent Report](https://janessa2297.github.io/qa-web-automation-selenium/api-ui-hybrid-testing/evidence/reports/extent.html)**
+
+**Verified Execution Results**
+- Total Tests: 13
+- Passed: 13
+- Failed: 0
+- Skipped: 0
+- Pass Rate: 100%
+
+The report includes execution details, test categories, and a visual summary of automated API, UI, and integration testing.
+
