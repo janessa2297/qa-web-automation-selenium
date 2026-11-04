@@ -1,39 +1,42 @@
-# 🧪 QA Web Automation — Selenium Portfolio 
+#  QA Web Automation — Selenium & API Testing Portfolio
 
-### Java | Selenium WebDriver | TestNG | Maven | Page Object Model | CI/CD
+### Java | Selenium WebDriver | REST Assured | TestNG | Maven | Page Object Model | CI/CD
 
-A collection of web UI automation testing projects showcasing practical **QA Automation Engineering and Software Development Engineer in Test (SDET)** skills.
+A professional software test automation portfolio demonstrating the design and implementation of maintainable automation frameworks across e-commerce, human resource management, and hotel booking applications.
 
-This repository demonstrates the design and implementation of maintainable automation frameworks, functional and regression testing, end-to-end validation, test reporting, and software quality engineering practices across different web applications.
+This repository contains three independent Java automation projects covering UI automation, functional testing, regression testing, API testing, and API + UI integration testing.
 
 ---
 
-## 👨‍💻 About This Portfolio
+## 👨‍💻 About Me
 
-I am a QA Automation Engineer with **5+ years of software quality engineering experience and 7+ years of overall IT experience**, specializing in test automation, quality assurance, and software engineering.
+I am a QA Automation Engineer with **5+ years of software quality engineering experience and 7+ years of overall IT experience**.
 
-My technical background includes Java, Selenium WebDriver, TestNG, Maven, API testing, test framework development, and enterprise software quality assurance.
+My professional experience includes test automation, functional and regression testing, API testing, software development, test framework design, and quality engineering throughout the Software Development Life Cycle (SDLC).
 
-This portfolio highlights my ability to:
+This portfolio demonstrates my ability to:
 
-- Design and implement scalable Selenium automation frameworks.
-- Develop reusable Page Object Model components.
-- Create comprehensive functional, negative, and regression test scenarios.
-- Automate critical end-to-end business workflows.
-- Implement automated reporting and failure diagnostics.
-- Apply test automation best practices and maintainable coding principles.
-- Integrate automation into CI/CD workflows.
+- Design and develop reusable test automation frameworks.
+- Implement Selenium WebDriver automation using Java.
+- Apply Page Object Model and separation of concerns.
+- Develop automated API tests using REST Assured.
+- Validate end-to-end workflows across application layers.
+- Implement meaningful assertions and negative testing.
+- Generate execution reports and failure diagnostics.
+- Integrate automated tests into CI/CD pipelines.
+- Document test strategies, scenarios, and framework architecture.
 
 ---
 
 ## 📂 Automation Projects
 
-This repository contains two implemented Selenium automation projects, each maintained in a dedicated folder.
-
-| Project | Application Domain | Technologies | Status |
+| Project | Domain | Automation Focus | Status |
 |---|---|---|---|
-| [01 — SauceDemo](saucedemo-testing/) | E-Commerce | Java, Selenium, TestNG, Maven | Completed |
-| [02 — OrangeHRM](orangehrm-testing/) | Human Resource Management | Java, Selenium, TestNG, Maven | Completed |
+| [01 — SauceDemo](saucedemo-testing/) | E-Commerce | UI, Regression, E2E | Completed |
+| [02 — OrangeHRM](orangehrm-testing/) | Human Resources | UI, Functional, Employee Management | Completed |
+| [03 — API + UI Hybrid](api-ui-hybrid-testing/) | Hotel Booking | API, UI, Integration | Implemented |
+
+Each project is independently organized with its own Maven configuration, source code, test suites, and documentation.
 
 ---
 
@@ -41,29 +44,29 @@ This repository contains two implemented Selenium automation projects, each main
 
 **[View SauceDemo Project](saucedemo-testing/)**
 
-A comprehensive Selenium automation framework developed to validate key e-commerce workflows using the SauceDemo demonstration application.
+A Java Selenium automation framework designed to validate critical e-commerce workflows using the SauceDemo demonstration application.
 
-### Functional Coverage
+### Test Coverage
 
-- Login authentication and validation
-- Positive and negative login scenarios
-- Product inventory and sorting
-- Product details validation
+- Login authentication and negative login scenarios
+- Product inventory validation
+- Product sorting and product details
 - Shopping cart operations
 - Checkout form validation
-- Order summary and price calculations
+- Order summary and pricing validation
+- End-to-end purchase scenarios
 - Application navigation and logout
-- End-to-end purchase workflows
 
-### Framework Highlights
+### Framework Features
 
-- Java 17, Selenium WebDriver, TestNG, Maven
-- Page Object Model (POM)
-- Thread-local WebDriver management
-- Parallel TestNG test-context execution
-- Reusable configuration and test utilities
-- Extent HTML execution reporting
-- Automated failure diagnostics
+- Java 17 and Selenium WebDriver
+- TestNG and Maven
+- Page Object Model
+- Reusable page components
+- WebDriver lifecycle management
+- Parallel test execution support
+- Extent HTML reporting
+- Failure diagnostics
 - GitHub Actions CI/CD integration
 
 ### Documented Execution Results
@@ -76,11 +79,10 @@ A comprehensive Selenium automation framework developed to validate key e-commer
 | Skipped | 0 |
 | Pass Rate | 100% |
 | Browser | Chrome — Headless |
-| Execution Date | October 28, 2026 |
 
-The results represent a recorded test execution and may differ on subsequent runs.
+Results represent a recorded execution, not a guarantee of future outcomes.
 
-**[View SauceDemo Source Code, Documentation & Test Evidence](saucedemo-testing/)**
+**[Explore SauceDemo Documentation and Test Evidence](saucedemo-testing/README.md)**
 
 ---
 
@@ -88,128 +90,183 @@ The results represent a recorded test execution and may differ on subsequent run
 
 **[View OrangeHRM Project](orangehrm-testing/)**
 
-A Java-based Selenium automation framework developed to validate authentication, dashboard navigation, employee management, and Human Resource Management System workflows using the OrangeHRM demonstration application.
+A Selenium-based automation framework developed to validate Human Resource Management System functionality using the OrangeHRM demonstration application.
 
-### Functional Coverage
+### Test Coverage
 
-- Login page validation
-- Positive and negative authentication scenarios
+- Login page and authentication validation
+- Positive and negative login scenarios
 - Dashboard functionality
 - Employee search and filtering
 - Employee management workflows
-- Session and logout validation
 - Employee lifecycle testing
+- Session management and logout
 
-### Framework Highlights
+### Framework Features
 
-- Java, Selenium WebDriver, TestNG, Maven
-- Page Object Model architecture
-- Dedicated WebDriver factory
+- Java and Selenium WebDriver
+- TestNG and Maven
+- Page Object Model
+- Driver Factory architecture
 - Reusable framework configuration
 - Data-driven login test support
 - Extent HTML reporting
 - Screenshot capture utilities
-- TestNG suite organization
-- Test plan and framework architecture documentation
+- Organized TestNG suites
+- Test planning and architecture documentation
 
-### Test Documentation
+### Project Documentation
 
-The OrangeHRM project includes:
+- [Test Plan](orangehrm-testing/docs/TEST_PLAN.md)
+- [Framework Architecture](orangehrm-testing/docs/FRAMEWORK_ARCHITECTURE.md)
+- [Project README and Execution Evidence](orangehrm-testing/README.md)
 
-- `README.md` — Framework overview and execution instructions
-- `docs/TEST_PLAN.md` — Testing scope and approach
-- `docs/FRAMEWORK_ARCHITECTURE.md` — Automation framework architecture
-- `testng.xml` — Main test suite configuration
-- `write-testng.xml` — Additional employee write-test suite configuration
+---
 
-Test execution results and evidence should be reviewed in the OrangeHRM project documentation.
+## 🔗 Project 03 — API + UI Hybrid Automation Framework
 
-**[View OrangeHRM Source Code & Framework Documentation](orangehrm-testing/)**
+**[View API + UI Hybrid Project](api-ui-hybrid-testing/)**
+
+A Java-based hybrid automation framework designed to validate hotel booking functionality across backend APIs and browser-based user interfaces.
+
+This project expands the portfolio beyond traditional Selenium automation by incorporating REST API testing and cross-layer integration testing.
+
+### API Testing
+
+Uses REST Assured to support automated validation of API behavior, including:
+
+- HTTP request and response validation
+- Status code assertions
+- JSON response validation
+- API contract testing
+- Positive and negative scenarios
+- API test data handling
+
+### UI Testing
+
+Uses Selenium WebDriver to validate browser-based functionality, including:
+
+- Page navigation
+- User interactions
+- Booking-related UI workflows
+- Form validation
+- Browser-visible application behavior
+
+### Hybrid Integration Testing
+
+Combines API and UI validation within shared business workflows.
+
+The framework is designed to demonstrate how backend data preparation and verification can complement Selenium browser automation.
+
+### Framework Features
+
+- Java 17
+- Selenium WebDriver
+- REST Assured
+- TestNG
+- Maven
+- API client abstraction
+- Page Object Model
+- Configuration management
+- Test automation documentation
+- CI/CD workflow configuration
+
+### Project Documentation
+
+- [Framework Architecture](api-ui-hybrid-testing/docs/FRAMEWORK_ARCHITECTURE.md)
+- [Test Plan](api-ui-hybrid-testing/docs/TEST_PLAN.md)
+- [Test Cases](api-ui-hybrid-testing/docs/TEST_CASES.md)
+- [API Endpoints](api-ui-hybrid-testing/docs/API_ENDPOINTS.md)
+- [Execution Record](api-ui-hybrid-testing/docs/EXECUTION_RECORD.md)
+- [Project README](api-ui-hybrid-testing/README.md)
+
+**Note:** Consult the project's execution record for verified test outcomes and environment limitations.
 
 ---
 
 ## 🏗️ Repository Architecture
-
-Each automation project is organized independently to maintain separation of concerns, support extensibility, and simplify project maintenance.
 
 ```text
 qa-web-automation-selenium/
 │
 ├── saucedemo-testing/
 │   ├── src/
-│   ├── screenshots/
-│   ├── reports/
-│   ├── README.md
 │   ├── pom.xml
-│   └── testng.xml
+│   ├── testng.xml
+│   └── README.md
 │
 ├── orangehrm-testing/
 │   ├── docs/
-│   │   ├── FRAMEWORK_ARCHITECTURE.md
-│   │   └── TEST_PLAN.md
 │   ├── src/
-│   ├── README.md
 │   ├── pom.xml
 │   ├── testng.xml
-│   └── write-testng.xml
+│   ├── write-testng.xml
+│   └── README.md
+│
+├── api-ui-hybrid-testing/
+│   ├── ci/
+│   ├── docs/
+│   ├── scripts/
+│   ├── src/
+│   ├── pom.xml
+│   ├── testng.xml
+│   └── README.md
 │
 ├── .gitignore
 └── README.md
 ```
 
-Both projects use their own Maven configurations, test suites, source code, and framework components.
+Each project is independently maintainable and has its own test configuration and execution instructions.
 
 ---
 
-## 🛠️ Technical Skills and Tools
+## 🛠️ Technical Skills Demonstrated
 
 | Category | Technologies / Practices |
 |---|---|
 | Programming | Java |
-| Web UI Automation | Selenium WebDriver |
-| Testing Framework | TestNG |
+| UI Automation | Selenium WebDriver |
+| API Automation | REST Assured |
+| Test Framework | TestNG |
 | Build Management | Maven |
-| Design Patterns | Page Object Model, Driver Factory |
-| Test Types | Functional, Smoke, Regression, Negative, End-to-End |
+| Design Patterns | Page Object Model, Driver Factory, API Client Layer |
+| Test Types | Functional, Regression, Smoke, Negative, End-to-End, Integration |
 | Reporting | Extent Reports, Maven Surefire |
-| Browser Management | Selenium WebDriver, Thread-Local Driver Handling |
-| CI/CD | GitHub Actions (SauceDemo) |
+| CI/CD | GitHub Actions |
 | Version Control | Git, GitHub |
 | Documentation | Test Plans, Test Cases, Framework Architecture |
 
 ---
 
-## 🧠 Test Automation Methodology
+## 🧠 Automation Engineering Approach
 
-The projects follow a structured quality engineering approach.
+### 1. Requirements Analysis
 
-### 1. Test Analysis and Planning
+Identify critical business workflows, functional requirements, and application risks.
 
-Identify critical workflows, business risks, expected behaviors, and application-specific testing requirements.
+### 2. Test Planning and Design
 
-### 2. Test Scenario Design
+Create meaningful positive, negative, regression, and integration scenarios.
 
-Develop positive, negative, functional, regression, and end-to-end test scenarios with meaningful expected results.
+### 3. Framework Architecture
 
-### 3. Automation Framework Development
-
-Implement reusable page objects, driver management, configuration handling, and shared utilities.
+Develop reusable automation components with clear separation between test logic and application interactions.
 
 ### 4. Test Implementation
 
-Create maintainable automated test methods with descriptive naming and meaningful assertions.
+Implement maintainable automated tests with meaningful assertions and controlled test data.
 
-### 5. Test Execution and Debugging
+### 5. Execution and Debugging
 
-Execute automated suites, investigate failures, and validate application behavior.
+Execute tests, investigate failures, and validate expected application behavior.
 
-### 6. Reporting and Documentation
+### 6. Reporting and Traceability
 
-Generate execution reports, preserve selected evidence, and document framework design and test coverage.
+Produce execution reports and document test results, defects, and limitations.
 
 ### 7. Continuous Improvement
 
-Refactor code, improve stability, expand test coverage, and enhance framework capabilities.
+Refactor automation components, improve stability, and expand meaningful coverage.
 
 ---
 
@@ -217,22 +274,23 @@ Refactor code, improve stability, expand test coverage, and enhance framework ca
 
 ### Prerequisites
 
-- Java JDK 17 or a version compatible with the individual project
+- Java JDK 17 or a compatible project-specific version
 - Apache Maven
-- Chrome or another supported browser
-- IntelliJ IDEA, VS Code, or Eclipse
 - Git
+- Google Chrome or another supported browser
+- VS Code, IntelliJ IDEA, or Eclipse
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/janessa2297/qa-web-automation-selenium.git
+cd qa-web-automation-selenium
 ```
 
 ### Run SauceDemo Tests
 
 ```bash
-cd qa-web-automation-selenium/saucedemo-testing
+cd saucedemo-testing
 mvn clean test
 ```
 
@@ -245,80 +303,101 @@ cd orangehrm-testing
 mvn clean test
 ```
 
-For application-specific configuration, test data requirements, and additional execution commands, refer to each project's README.
+### Run API + UI Hybrid Tests
+
+From the repository root:
+
+```bash
+cd api-ui-hybrid-testing
+mvn clean test
+```
+
+The hybrid framework may require additional local application setup and environment configuration. Follow its project README before executing tests.
 
 ---
 
-## 📊 Test Execution Reporting
+## 📊 Test Execution Evidence
 
-Automated execution reports provide visibility into test outcomes, scenario-level results, execution statistics, and available diagnostic information.
+Execution evidence and framework documentation are organized within the individual project directories.
 
-### SauceDemo
+| Project | Evidence and Documentation |
+|---|---|
+| SauceDemo | [Execution Evidence](saucedemo-testing/README.md) |
+| OrangeHRM | [Execution Evidence](orangehrm-testing/README.md) |
+| API + UI Hybrid | [Execution Record](api-ui-hybrid-testing/docs/EXECUTION_RECORD.md) |
 
-Includes documented execution screenshots and an archived HTML report with Overview, Scenarios, Features, and Analytics sections.
+Execution results are environment-dependent and reflect the conditions documented for each run.
 
-**[View SauceDemo Test Evidence](saucedemo-testing/#-test-execution-evidence)**
+---
 
-### OrangeHRM
+## ⚙️ CI/CD and Automation Reliability
 
-Includes an Extent reporting implementation and screenshot capture utilities.
+The portfolio demonstrates automated testing practices such as:
 
-**[View OrangeHRM Reporting Documentation](orangehrm-testing/)**
+- Maven-based test execution
+- TestNG test suite organization
+- Headless browser execution
+- Failure reporting
+- Environment-based configuration
+- Separation of test data and application logic
+- GitHub Actions integration
+
+CI/CD capabilities vary by project. Refer to individual project documentation for workflow setup and execution status.
 
 ---
 
 ## 🎯 Engineering Principles
 
-The automation frameworks emphasize:
+These frameworks emphasize:
 
-- **Maintainability:** Reusable components and clear separation of concerns.
-- **Reliability:** Explicit synchronization and meaningful assertions.
-- **Test Independence:** Reduced dependencies between test scenarios.
-- **Scalability:** Extensible project and test architecture.
-- **Traceability:** Clear test naming, documentation, and reporting.
-- **Reproducibility:** Maven-based execution and defined configuration.
-- **Code Quality:** Organized source code and consistent framework patterns.
+**Maintainability** — Reusable code and clearly defined component responsibilities.
 
----
+**Reliability** — Explicit synchronization, isolated scenarios, and meaningful assertions.
 
-## 📈 Continuous Development
+**Scalability** — Extensible architecture for additional tests and application features.
 
-Future portfolio improvements may include:
+**Traceability** — Documented test cases, execution records, and reporting.
 
-- [ ] Additional CI/CD coverage for OrangeHRM
-- [ ] Cross-browser execution evidence
-- [ ] Expanded data-driven and negative testing
-- [ ] Automated accessibility testing
-- [ ] Test execution trend analysis
-- [ ] Additional web application automation projects
+**Reproducibility** — Maven-based builds and configurable execution environments.
+
+**Security** — Environment-based secrets handling and exclusion of local dependencies and generated artifacts from version control.
 
 ---
 
-## 📌 Project Navigation
+## 📈 Future Improvements
 
-| Project | Documentation |
+- [ ] Enable and verify GitHub Actions for the API + UI Hybrid project
+- [ ] Expand CI/CD coverage across all projects
+- [ ] Add cross-browser execution evidence
+- [ ] Introduce additional accessibility testing
+- [ ] Improve automated reporting and execution analytics
+- [ ] Expand integration and contract testing coverage
+
+---
+
+## 📌 Quick Navigation
+
+| Resource | Link |
 |---|---|
-| SauceDemo Automation | [Open Project README](saucedemo-testing/README.md) |
-| OrangeHRM Automation | [Open Project README](orangehrm-testing/README.md) |
-| SauceDemo Test Evidence | [View Screenshots](saucedemo-testing/screenshots/) |
-| SauceDemo HTML Report | [View Report Files](saucedemo-testing/reports/) |
-| OrangeHRM Test Plan | [View Test Plan](orangehrm-testing/docs/TEST_PLAN.md) |
-| OrangeHRM Framework Architecture | [View Architecture](orangehrm-testing/docs/FRAMEWORK_ARCHITECTURE.md) |
+| SauceDemo Framework | [View Project](saucedemo-testing/) |
+| OrangeHRM Framework | [View Project](orangehrm-testing/) |
+| API + UI Hybrid Framework | [View Project](api-ui-hybrid-testing/) |
+| OrangeHRM Test Plan | [View Documentation](orangehrm-testing/docs/TEST_PLAN.md) |
+| Hybrid Test Cases | [View Test Cases](api-ui-hybrid-testing/docs/TEST_CASES.md) |
+| Hybrid Execution Record | [View Execution Results](api-ui-hybrid-testing/docs/EXECUTION_RECORD.md) |
 
 ---
 
 ## 📚 Disclaimer
 
-These projects are independent automation portfolio demonstrations developed using publicly accessible demonstration applications.
+These projects are independent educational and professional portfolio demonstrations developed using publicly accessible or locally hosted demonstration applications.
 
-They are not affiliated with or endorsed by Sauce Labs or OrangeHRM.
+They are not affiliated with or endorsed by the respective application owners.
 
 ---
 
 ## ⭐ Portfolio Purpose
 
-This repository showcases my technical capabilities in Selenium WebDriver automation, Java programming, test framework design, test strategy, and software quality engineering.
+This repository demonstrates practical capabilities in Java-based test automation, Selenium WebDriver, REST API testing, automation framework design, software testing strategy, and quality engineering.
 
-Each project demonstrates practical implementation of maintainable automated testing solutions across different application domains.
-
-The portfolio will continue to evolve through additional testing scenarios, framework improvements, and engineering projects.
+The goal is to showcase maintainable, well-documented automation solutions that reflect real-world software testing practices.
